@@ -10,6 +10,7 @@
 |------|------|
 | [git.md](tools/git.md) | Git 常用命令与踩坑记录 |
 | [docker.md](tools/docker.md) | Docker 常用命令 |
+| [tmux.md](tools/tmux.md) | tmux 配置与快捷键清单 |
 
 ### 💻 系统与终端 [os-and-terminal/](os-and-terminal/)
 
@@ -45,6 +46,8 @@
   - [常用命令](tools/git.md#常用命令) · [进阶命令](tools/git.md#进阶命令) · [配置](tools/git.md#配置) · [踩坑记录](tools/git.md#踩坑记录)
 - [docker.md](tools/docker.md)
   - [常用命令](tools/docker.md#常用命令) · [进阶命令](tools/docker.md#进阶命令) · [踩坑记录](tools/docker.md#踩坑记录)
+- [tmux.md](tools/tmux.md)
+  - [配置（~/.tmux.conf）](tools/tmux.md#配置tmuxconf) · [会话管理](tools/tmux.md#会话管理) · [会话与窗口](tools/tmux.md#会话与窗口) · [面板pane](tools/tmux.md#面板pane) · [复制与滚动](tools/tmux.md#复制与滚动) · [MobaXterm 剪贴板](tools/tmux.md#mobaxterm--ssh鼠标拖选直接进-windows-剪贴板) · [踩坑记录](tools/tmux.md#踩坑记录)
 
 ### os-and-terminal/
 
