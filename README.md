@@ -20,6 +20,7 @@
 | [shell-tricks.md](os-and-terminal/shell-tricks.md) | PowerShell / Bash 快捷键与脚本片段 |
 | [bash-vs-powershell.md](os-and-terminal/bash-vs-powershell.md) | Bash 与 PowerShell 命令对照表 |
 | [ssh-proxy.md](os-and-terminal/ssh-proxy.md) | SSH 免密、代理配置 |
+| [shortcuts.md](os-and-terminal/shortcuts.md) | Windows / macOS 常用快捷键速查 |
 
 ### 🐍 开发环境 [dev-env/](dev-env/)
 
@@ -66,6 +67,8 @@
   - [八、系统基础运维命令](os-and-terminal/bash-vs-powershell.md#八系统基础运维命令)
 - [ssh-proxy.md](os-and-terminal/ssh-proxy.md)
   - [常用命令](os-and-terminal/ssh-proxy.md#常用命令) · [SSH 配置](os-and-terminal/ssh-proxy.md#ssh-配置) · [代理转发](os-and-terminal/ssh-proxy.md#代理转发) · [踩坑记录](os-and-terminal/ssh-proxy.md#踩坑记录)
+- [shortcuts.md](os-and-terminal/shortcuts.md)
+  - [Windows](os-and-terminal/shortcuts.md#windows) · [macOS](os-and-terminal/shortcuts.md#macos) · [踩坑记录](os-and-terminal/shortcuts.md#踩坑记录)
 
 ### dev-env/
 
