@@ -11,6 +11,7 @@
 | [git.md](tools/git.md) | Git 常用命令与踩坑记录 |
 | [docker.md](tools/docker.md) | Docker 常用命令 |
 | [tmux.md](tools/tmux.md) | tmux 配置与快捷键清单 |
+| [rsync.md](tools/rsync.md) | rsync 目录合并与增量 copy / move |
 
 ### 💻 系统与终端 [os-and-terminal/](os-and-terminal/)
 
@@ -49,6 +50,8 @@
   - [常用命令](tools/docker.md#常用命令) · [进阶命令](tools/docker.md#进阶命令) · [踩坑记录](tools/docker.md#踩坑记录)
 - [tmux.md](tools/tmux.md)
   - [配置（~/.tmux.conf）](tools/tmux.md#配置tmuxconf) · [会话管理](tools/tmux.md#会话管理) · [会话与窗口](tools/tmux.md#会话与窗口) · [面板pane](tools/tmux.md#面板pane) · [复制与滚动](tools/tmux.md#复制与滚动) · [MobaXterm 剪贴板](tools/tmux.md#mobaxterm--ssh鼠标拖选直接进-windows-剪贴板) · [踩坑记录](tools/tmux.md#踩坑记录)
+- [rsync.md](tools/rsync.md)
+  - [30 秒上手](tools/rsync.md#30-秒上手) · [场景](tools/rsync.md#场景) · [末尾斜杠决定语义](tools/rsync.md#末尾斜杠决定语义) · [为什么比 cp -r / mv 快](tools/rsync.md#为什么比-cp--r--mv-快) · [读懂 --itemize-changes 的输出](tools/rsync.md#读懂---itemize-changes-的输出) · [先 dry-run，再动手](tools/rsync.md#先-dry-run再动手) · [输出控制：-v 与 --info=progress2](tools/rsync.md#输出控制-v-与---infoprogress2) · [move：copy 完再删源](tools/rsync.md#movecopy-完再删源) · [想更严格的校验](tools/rsync.md#想更严格的校验) · [--delete：镜像同步（危险）](tools/rsync.md#delete镜像同步危险) · [远程同步与断点续传](tools/rsync.md#远程同步与断点续传) · [踩坑速查](tools/rsync.md#踩坑速查)
 
 ### os-and-terminal/
 
