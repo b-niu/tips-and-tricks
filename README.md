@@ -51,7 +51,7 @@
 - [tmux.md](tools/tmux.md)
   - [配置（~/.tmux.conf）](tools/tmux.md#配置tmuxconf) · [会话管理](tools/tmux.md#会话管理) · [会话与窗口](tools/tmux.md#会话与窗口) · [面板pane](tools/tmux.md#面板pane) · [复制与滚动](tools/tmux.md#复制与滚动) · [MobaXterm 剪贴板](tools/tmux.md#mobaxterm--ssh鼠标拖选直接进-windows-剪贴板) · [踩坑记录](tools/tmux.md#踩坑记录)
 - [rsync.md](tools/rsync.md)
-  - [30 秒上手](tools/rsync.md#30-秒上手) · [场景](tools/rsync.md#场景) · [末尾斜杠决定语义](tools/rsync.md#末尾斜杠决定语义) · [为什么比 cp -r / mv 快](tools/rsync.md#为什么比-cp--r--mv-快) · [读懂 --itemize-changes 的输出](tools/rsync.md#读懂---itemize-changes-的输出) · [先 dry-run，再动手](tools/rsync.md#先-dry-run再动手) · [输出控制：-v 与 --info=progress2](tools/rsync.md#输出控制-v-与---infoprogress2) · [move：copy 完再删源](tools/rsync.md#movecopy-完再删源) · [想更严格的校验](tools/rsync.md#想更严格的校验) · [--delete：镜像同步（危险）](tools/rsync.md#delete镜像同步危险) · [远程同步与断点续传](tools/rsync.md#远程同步与断点续传) · [踩坑速查](tools/rsync.md#踩坑速查)
+  - [30 秒上手](tools/rsync.md#30-秒上手) · [场景](tools/rsync.md#场景) · [末尾斜杠决定语义](tools/rsync.md#末尾斜杠决定语义) · [为什么比 cp -r / mv 快](tools/rsync.md#为什么比-cp--r--mv-快) · [本地 vs 远程：走的是完全不同的代码路径](tools/rsync.md#本地-vs-远程走的是完全不同的代码路径) · [跨盘还是不跨盘？rsync 根本不关心](tools/rsync.md#跨盘还是不跨盘rsync-根本不关心) · [想更快：把 -a 拆开，只搬数据](tools/rsync.md#想更快把--a-拆开只搬数据) · [断点续传（本地）](tools/rsync.md#断点续传本地) · [读懂 --itemize-changes 的输出](tools/rsync.md#读懂---itemize-changes-的输出) · [先 dry-run，再动手](tools/rsync.md#先-dry-run再动手) · [输出控制：-v 与 --info=progress2](tools/rsync.md#输出控制-v-与---infoprogress2) · [move：copy 完再删源](tools/rsync.md#movecopy-完再删源) · [移动的安全实践](tools/rsync.md#移动的安全实践) · [想更严格的校验](tools/rsync.md#想更严格的校验) · [移动前的对齐校验](tools/rsync.md#移动前的对齐校验) · [--delete：镜像同步（危险）](tools/rsync.md#delete镜像同步危险) · [远程同步与断点续传](tools/rsync.md#远程同步与断点续传) · [踩坑速查](tools/rsync.md#踩坑速查)
 
 ### os-and-terminal/
 
