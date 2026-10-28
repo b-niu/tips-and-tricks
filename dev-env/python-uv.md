@@ -136,6 +136,22 @@ uv add torch torchvision torchaudio
 
 > 关键是 `[tool.uv.sources]` 的显式绑定：没有它，uv 会优先从 `default = true` 的 tuna 源解析 torch，装到的就不是 CUDA 12.6 版本。
 
+### 全局的镜像源设置
+
+修改 uv 的全局镜像源为清华源 (TUNA)。在 Windows 系统下，uv 的全局配置文件路径为`%APPDATA%\uv\uv.toml`,
+也就是`C:\Users\<你的用户名>\AppData\Roaming\uv\uv.toml`。如果 `uv` 文件夹或 `uv.toml` 文件不存在，直接手动创建即可。
+
+打开并编辑 `uv.toml`，写入以下内容：
+
+```toml
+[[index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+```
+
+---
+
+
 ## 六、常见故障排除（Troubleshooting）
 
 ### 1. Windows 平台源码编译缺少依赖（如 `lmdb` 报 `ModuleNotFoundError: No module named 'patch-ng'`）
